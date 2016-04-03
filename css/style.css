@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset "utf-8";
 /* CSS Document */
 
@@ -61,3 +62,62 @@ h1{
     font-family: open sans;
     text-align: center;
 }
+=======
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0px;
+    padding: 0;
+	}
+#wrapper{
+	width:100%;
+	height:2000px;
+	}	
+.nikebox{
+	width:100%;
+	height:500px;
+	background-image:url(../img/NIKE%20BG.jpg);
+	background-position:top center;
+	background-attachment:fixed;
+	position:relative;
+	overflow:hidden;
+	z-index:-5;
+	}
+.logo{
+	width:100%;
+	height:133px;
+	background-image:url(../img/LOGO.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	position:absolute;
+	top:50%;
+	margin-top:-66px;
+	z-index:2;
+	}
+
+.shoes{
+	width:100%;
+	height:340px;
+	background-image:url(../img/nike%20shoes.png);
+	background-repeat:no-repeat;
+	position:absolute;
+	background-position:right;
+	top:50%;
+	margin-top:-100px;
+	right:5%;
+	z-index:3;
+	}
+
+.shoesblurred{
+	width:100%;
+	height:440px;
+	background-image:url(../img/shoesblurred.png);
+	background-position:left center;
+	background-repeat:no-repeat;
+	position:absolute;
+	bottom:20%;
+	right:7%;
+	z-index:1;
+	}
+>>>>>>> origin/master
